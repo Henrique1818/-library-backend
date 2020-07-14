@@ -1,0 +1,67 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "avatar",
+      "editora": "EuBastidores",
+      "foto": "3x4",
+      "autores": "Eu"
+    },
+    {
+      "id": 2,
+      "title": "teste1",
+      "editora": "teste1",
+      "foto": "teste1",
+      "autores": "teste1"
+    },
+    {
+      "id": 3,
+      "title": "teste3",
+      "editora": "teste3",
+      "foto": "teste3",
+      "autores": "teste3"
+    },
+    {
+      "id": 4,
+      "title": "teste4",
+      "editora": "teste4",
+      "foto": "teste4",
+      "autores": "teste4"
+    },
+    {
+      "id": 5,
+      "title": "teste5",
+      "editora": "teste5",
+      "foto": "teste5",
+      "autores": "teste5"
+    },
+    {
+      "id": 6,
+      "title": "teste6",
+      "editora": "teste6",
+      "foto": "teste6",
+      "autores": "teste6"
+    },
+    {
+      "id": 7,
+      "title": "teste7",
+      "editora": "teste7",
+      "foto": "teste7",
+      "autores": "teste7"
+    },
+    {
+      "id": 8,
+      "title": "teste8",
+      "editora": "teste8",
+      "foto": "teste8",
+      "autores": "teste8"
+    },
+    {
+      "id": 9,
+      "title": "teste9",
+      "editora": "teste9",
+      "foto": "teste9",
+      "autores": "teste9"
+    }
+  ]
+}
