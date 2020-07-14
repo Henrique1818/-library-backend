@@ -28,6 +28,8 @@ class UseLibrary {
 
         return res.status(200).json({books: Data.books})
     }
+    alter(req, res){
+    }
 }
 
 module.exports = new UseLibrary();

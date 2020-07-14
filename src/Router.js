@@ -3,7 +3,8 @@ const router = express.Router();
 
 const UseLibrary = require('./controllers/UseLibrary');
 
-router.post('/create', UseLibrary.create)
+router.post('/', UseLibrary.create);
+router.put('/', UseLibrary.alter)
 
 
 module.exports = router;

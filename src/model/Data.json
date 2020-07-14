@@ -34,34 +34,6 @@
       "editora": "teste5",
       "foto": "teste5",
       "autores": "teste5"
-    },
-    {
-      "id": 6,
-      "title": "teste6",
-      "editora": "teste6",
-      "foto": "teste6",
-      "autores": "teste6"
-    },
-    {
-      "id": 7,
-      "title": "teste7",
-      "editora": "teste7",
-      "foto": "teste7",
-      "autores": "teste7"
-    },
-    {
-      "id": 8,
-      "title": "teste8",
-      "editora": "teste8",
-      "foto": "teste8",
-      "autores": "teste8"
-    },
-    {
-      "id": 9,
-      "title": "teste9",
-      "editora": "teste9",
-      "foto": "teste9",
-      "autores": "teste9"
     }
   ]
 }
