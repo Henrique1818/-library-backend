@@ -29,6 +29,7 @@ Criar o backend para um sistema de gerenciamento de uma biblioteca!
 <b>[PUT] </b> /obras/:id : A rota deverá atualizar as informações de titulo, editora, foto e autores da obra com o id presente nos parâmetros da rota<br><br>
 <b>[DELETE] </b> /obras/:id : A rota deverá deletar a obra com o id presente nos parâmetros da rota<br>
 
+![Untitled_ Jul 15, 2020 10_17 AM](https://user-images.githubusercontent.com/56804642/87608866-5dab5800-c6d7-11ea-839d-b7329ea84d6b.gif)
 
 # Techs: 
 - *Node.js*;
