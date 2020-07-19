@@ -1,14 +1,15 @@
 const express = require('express');
 const router = express.Router();
 
-const UseLibrary = require('./controllers/UseLibrary');
+const LibraryController = require('./controllers/LibraryController');
+const LibraryValidation = require('./middlewares/LibraryValidation');
 
-router.post('/', UseLibrary.create);
-router.put('/:id', UseLibrary.update);
-router.get('/:id', UseLibrary.show);
-router.delete('/:id', UseLibrary.delete);
+router.post('/', LibraryValidation, LibraryController.create);
+router.put('/:id', LibraryValidation, LibraryController.update);
+router.get('/:id', LibraryController.show);
+router.delete('/:id', LibraryController.delete);
 
-router.get('/', UseLibrary.all);
+router.get('/', LibraryController.all);
 
 
 module.exports = router;
