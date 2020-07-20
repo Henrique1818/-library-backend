@@ -10,6 +10,7 @@ router.get('/:id', LibraryController.show);
 router.delete('/:id', LibraryController.delete);
 
 router.get('/', LibraryController.all);
+router.get('', LibraryController.filterCategory);
 
 
 module.exports = router;
