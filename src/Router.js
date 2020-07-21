@@ -9,8 +9,7 @@ router.put('/:id', LibraryValidation, LibraryController.update);
 router.get('/:id', LibraryController.show);
 router.delete('/:id', LibraryController.delete);
 
-router.get('/', LibraryController.all);
-router.get('', LibraryController.filterCategory);
-
+router.get('/', LibraryController.filterCategory);
+router.get('/filter/all', LibraryController.all);
 
 module.exports = router;
