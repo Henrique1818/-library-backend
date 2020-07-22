@@ -25,7 +25,8 @@ class LibraryController {
     }
 
     async all(req, res) {
-        await LibraryModel.find({})
+        await LibraryModel.find()
+        .sort('category')
         .then(response => {
             return res.status(200).json(response);
         })
@@ -58,7 +59,7 @@ class LibraryController {
     }
 
     async filterCategory(req, res){
-        await LibraryModel.find({"category": {"$in": req.query.category}})
+        await LibraryModel.find({"category": {"$eq": req.query.category}})
         .sort('category')
         .then(response => {
             return res.status(200).json(response);
