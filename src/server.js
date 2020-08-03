@@ -1,11 +1,14 @@
 const express = require('express');
+const cors = require('cors');
+
 const server = express();
 
+server.use(cors());
 server.use(express.json());
 
 const LibRouter = require('./Router');
 server.use(LibRouter);
 
-server.listen(5000, () => {
+server.listen(3333, () => {
     console.log('API running port 5000');
 })
