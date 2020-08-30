@@ -10,5 +10,5 @@ const LibRouter = require('./Router');
 server.use(LibRouter);
 
 server.listen(3333, () => {
-    console.log('API running port 5000');
+    console.log('API running - port: 3333');
 })
