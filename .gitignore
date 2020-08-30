@@ -5,3 +5,5 @@ jspm_packages/
 # pastas temporarias
 tmp/
 temp/
+
+package-lock.json
