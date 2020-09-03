@@ -2,7 +2,7 @@ const LibraryModel = require('../model/LibraryModel');
 const { exists } = require('../model/LibraryModel');
 
 const LibraryValidation = async (req, res, next) => {
-    const { title, description, avatar_url, publishing_company, authors, category } = req.body
+    const { title, description, avatar_url, publishing_company, authors, category, _id } = req.body
 
     if(!title) return res.status(400).json({error: 'Title é obrigatório'});
     else if(!description) return res.status(400).json({error: 'description é obrigatório'});
@@ -12,7 +12,7 @@ const LibraryValidation = async (req, res, next) => {
     else if(!category) return res.status(400).json({error: 'category é obrigatório'});
 
     else {
-        const exists = await LibraryModel.findOne({'title': {'$in': title}})
+        const exists = await LibraryModel.findOne({'_id': {'$in': _id}})
 
         if(exists){
             return res.status(400).json({ error: 'já existe uma obra com esse nome' });
