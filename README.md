@@ -1,52 +1,151 @@
-<br />
-<p align="center">
-    <img src="https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png" alt="Logo" width="200">
+<div align="center">
 
-  <h2 align="center">Biblioteca</h2>
- <br />
-  <p align="center">
-     Sistema de gerenciamento de biblioteca
-       <br />
-    <br />
-    <a href="https://github.com/devchallenge-io/biblioteca-backend">Desafio</a>
-    ·
-    <a href="https://www.devchallenge.com.br/">DevChallenge</a>
-  </p>
+<img width="150" src="https://user-images.githubusercontent.com/56804642/92179213-a6030e80-ee1a-11ea-9ccd-4563564de66c.png" />
+
+<h1 style="font-size: 28px; color: #6C63FF" >Library</h1>
+
+<p style="
+        max-width: 350px;
+        text-align: center;
+        font-size: 18px;
+    ">
+    Site onde você pode encontrar diversos catálogos de livros, e-books, HG ou adicionar novos livros, etc.
 </p>
+</div>
 
+<br/>
 
-# Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
+<div>
+    <h2>Índice</h2>
+    <ul style="color: #444;">
+        <li>
+            <a href="#sobre" style="color: #D2D2D2">
+                Sobre o Projeto
+                <ul>
+                    <li>
+                        <a
+                            href="#demo"
+                            style="color: #D2D2D2"
+                        >
+                            Demo
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            style="color: #D2D2D2"         href="#techs"
+                        >
+                            Tecnologias
+                        </a>
+                    </li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a style="color: #D2D2D2" href="#como-usar">
+                Como Utilizar
+                <ul>
+                    <li>
+                        <a
+                            href="#req"
+                            style="color: #D2D2D2"
+                        >
+                            Requisitos
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            style="color: #D2D2D2"         href="#inst"
+                        >
+                            Instalar
+                        </a>
+                    </li>
+                </ul>
+            </a>
+        </li>
+    </ul>
+</div>
 
-# Desafio
-Criar o backend para um sistema de gerenciamento de uma biblioteca!
+<div>
+    <h1 id="sobre">Sobre</h1>
+    <p>
+        A Library é um projeto pessoal, onde início através do desafio de criar uma API de gerenciamento de Biblioteca da <a 
+        href="https://devchallenge.now.sh/" style="color: #f1c40f">
+            DevChallenge
+        </a>, porém resolvi fazer algumas funcionalidades a + e desenvolver a parte do front end. :smile:
+    </p>
+    <br/>
+    <h1 id="demo">Demo:</h1>
+    <div align="center">
+        <a href="https://j.gifs.com/mOxK4n.gif"             style="color: #D2D2D2; font-size: 40px;">
+            Ver Demo
+        </a>
+    </div>
+    <br />
+    <br />
+    <h1 id="techs">Tecnologias:</h1>
+    <li>Backend: Nodejs</li>
+    <li>Frontend: Reactjs</li>
+    <li>Banco: MongoDB</li>
+    <br />
+    <br />
+    <div>
+        <h1 id="como-usar">Como Utilizar:</h1>
+        <p id="req">
+            <h2>Requisitos</h2>
+            1. Nodejs
+        </p>
+        <div id="inst">
+            <h2>Instalar</h2>
+        </div>
+    </div>
+</div>
 
-## Requisitos:
-### Rotas da aplicação:
-<b>[POST] </b> /obras :  A rota deverá receber titulo, editora, foto, e autores dentro do corpo da requisição. Ao cadastrar um novo projeto, ele deverá ser armazenado dentro de um objeto no seguinte formato: { id: 1, titulo: 'Harry Potter', editora: 'Rocco',foto: 'https://i.imgur.com/UH3IPXw.jpg', autores: ["JK Rowling", "..."]};<br><br>
-<b>[GET] </b> /obras/ : A rota deverá listar todas as obras cadastradas<br><br>
-<b>[GET] </b> /obras/:id : A rota deverá listar apenas as obras cadastradas com o id<br><br>
-<b>[PUT] </b> /obras/:id : A rota deverá atualizar as informações de titulo, editora, foto e autores da obra com o id presente nos parâmetros da rota<br><br>
-<b>[DELETE] </b> /obras/:id : A rota deverá deletar a obra com o id presente nos parâmetros da rota<br><br>
+1. Faça o <a href="https://github.com/Henrique1818/library-backend/archive/master.zip" style="color: #D2D2D2;">Download</a> ou clone o repositório library-backend
+
+```
+git@github.com:Henrique1818/library-backend.git
+```
+
+2. Abra o projeto no seu editor.
+3. No seu terminal, instale os pacotes necessários:
+
+```
+yarn
+```
+
+ou
+
+```
+npm install
+```
+
+4. Ótimo! Agora você pode ir na pasta library-backend e iniciar o server:
+
+```
+cd library-backend
+```
+
+```
+yarn start / npm start
+```
+
+5. O backend do Library está disponível! Agora você pode ver os dados no frontend. Se você quiser testar a API do Library, eu recomendo que utilize o Insomnia. O backend estará disponível em http://localhost:3333/ :smiley:
+
+<br />
+
+O Frontend está disponível no respositório: <a href="https://github.com/Henrique1818/LibraryBook" style="color: #D2D2D2; font-weight: bold;">LibraryBook</a>
+<br />
+<br />
+<br />
+
 
 <div align="center">
-    
-![Untitled_ Jul 15, 2020 10_17 AM](https://user-images.githubusercontent.com/56804642/87608866-5dab5800-c6d7-11ea-839d-b7329ea84d6b.gif)
-
-</div><br><br>
-
-# Techs: 
-- *Node.js*;
-- *Express*;
-- *Biblioteca FS*;
-
-# Ferramentas:
-- Insomnia;
-
-# Como começar:
-1 - Use esse template (clicando em Use this template) ou faça um fork deste repositório com o código inicial<br>
-
-
-Desafio criado por  <a href="https://www.linkedin.com/in/lorenagmontes/">Lorena</a> :)
-
-Me segue no [linkedin](https://www.linkedin.com/in/luiz-henrique1889/) :heart:
+    Desenvolvido por <a href="https://github.com/Henrique1818" style="color: #D2D2D2; font-weight: bold;">Henrique :metal:</a>
+    <br />
+    <a href="https://www.linkedin.com/in/luiz-henrique1889/" style="color: #D2D2D2; font-weight: bold; margin-right: 12px;">Linkedin</a>
+        |
+    <a href="https://www.instagram.com/henrique18_89/" style="color: #D2D2D2; font-weight: bold">Instagram</a> :heart:
+    <br />
+    <br />
+    Desafio criado por  <a href="https://www.linkedin.com/in/lorenagmontes/" style="color: #D2D2D2; font-weight: bold">Lorena :smiley:</a>
+</div>
